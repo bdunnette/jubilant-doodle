@@ -1,0 +1,35 @@
+title = "Brian Dunnette"
+baseURL = "https://bdunnette.github.io"
+languageCode = "en-us"
+theme = "ananke"
+# themesDir = "../.."
+
+MetaDataFormat = "yaml"
+DefaultContentLanguage = "en"
+SectionPagesMenu = "main"
+Paginate = 3 # this is set low for demonstrating with dummy content. Set to a higher number
+googleAnalytics = ""
+enableRobotsTXT = true
+
+[sitemap]
+  changefreq = "monthly"
+  priority = 0.5
+  filename = "sitemap.xml"
+
+[params]
+  favicon = ""
+  description = "The last theme you'll ever need. Maybe."
+  facebook = ""
+  twitter = "https://twitter.com/bdunnette"
+  instagram = "https://www.instagram.com/bdunnette/"
+  youtube = ""
+  github = "https://github.com/bdunnette"
+  gitlab = ""
+  linkedin = "https://www.linkedin.com/in/bdunnette/"
+  mastodon = "https://mspsocial.net/@bdunnette"
+  # choose a background color from any on this page: http://tachyons.io/docs/themes/skins/ and preface it with "bg-"
+  background_color_class = "bg-gray"
+  featured_image = "/images/IMG_20190402_123957855_HDR.jpg"
+  recent_posts_number = 2
+  show_reading_time=true
+  body_classes = "avenir bg-near-white"
